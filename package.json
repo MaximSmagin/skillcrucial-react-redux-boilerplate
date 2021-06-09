@@ -78,7 +78,6 @@
         "babel-polyfill": "^6.26.0",
         "babel-preset-react-boilerplate": "1.1.1",
         "babel-preset-react-hmre": "1.1.1",
-        "body-parser": "^1.19.0",
         "classnames": "^2.2.6",
         "colors": "^1.4.0",
         "connected-react-router": "^6.8.0",
@@ -89,6 +88,7 @@
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "history": "^4.10.1",
+        "nanoid": "^3.1.23",
         "prop-types": "^15.7.2",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
@@ -167,7 +167,8 @@
     },
     "nodemonConfig": {
         "ignore": [
-            "*.hot-update.json"
+            "*.hot-update.json",
+            "./server/data/**.*"
         ]
     },
     "husky": {
